@@ -1,130 +1,61 @@
-# 📚 Desenvolvimento Back-End 2 - PHP Laravel
-## IFSUL - Curso Superior de Tecnologia em Sistemas para Internet - 2025.02
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-Este repositório contém os materiais e exemplos práticos da disciplina de Desenvolvimento de Back-End 2, focada em PHP e Laravel.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-## 📂 Estrutura de Pastas e Arquios do Repositório
+## About Laravel
 
-```
-topico01/
-└── revisao_poo_php/
-    ├── exemplo_01.php
-    ├── exemplo_02.php
-    ├── exemplo_03.php
-    ├── exemplo_04.php
-    ├── exemplo_05.php
-    ├── exemplo_06.php
-    ├── exemplo_07.php
-    ├── exemplo_08.php
-    └── classes/
-        ├── Funcionario.php
-        ├── IMC.php
-        ├── Pessoa.php
-        └── Professor.php
-```
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## 📖 Tópicos Abordados
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-### Tópico 01: Revisão de POO em PHP
-📋 **[Ver documentação completa e exemplos](topico01/revisao_poo_php/README.md)**
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Learning Laravel
 
-## 🛠️ Configuração do Ambiente de Desenvolvimento
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-#### PHP e Ambiente Laravel
-* **Script da Documentação Oficial (mac/windows/linux)**: [Link](https://laravel.com/docs/12.x/installation#installing-php)
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-### Para Linux/Ubuntu
+## Laravel Sponsors
 
-#### Instalação do PHP 8.4
-* **Instalação do PHP8.4 no Ubuntu 24.04**: [Link](https://www.edivaldobrito.com.br/como-instalar-o-php-8-4-no-ubuntu-22-04-e-24-04-e-derivados/)
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-#### Instalação do Composer
-* **Instalação do Composer no Linux**: [Link](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos)
+### Premium Partners
 
-#### Terminal e Produtividade
-* **Instalação do ZSH**: [Link](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
-* **Oh My Zsh**: [Link](https://github.com/ohmyzsh/ohmyzsh)
-* **Tutorial ZSH+Plugins+Power10k Theme no Ubuntu 22.04**: [Link](https://gist.github.com/jonilsonds9/4b017d54876b279c27ce77f116f5d3ca)
-* **Power10K ZSH Theme**: [Link](https://github.com/romkatv/powerlevel10k)
+- **[Vehikl](https://vehikl.com)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Redberry](https://redberry.international/laravel-development)**
+- **[Active Logic](https://activelogic.com)**
 
-#### Banco de Dados com Docker
-* **Como criar um banco de dados MySQL**: [Link](https://nodejs.org/en/download)
+## Contributing
 
-### Para Windows
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-#### Ferramentas de Desenvolvimento
-* **Composer para Windows**: [Link](https://getcomposer.org/doc/00-intro.md#installation-windows)
-* **Tutorial OH-MY-POSH (Versão do ZSH para Windows PowerShell)**: [Link](https://prof-gillgonzales-ifsul.notion.site/Oh-My-Posh-2551037386bf8057a457f2564059dbe1)
-* **Turbinando sua Produtividade: Autocomplete e Personalização no Terminal do Windows**: [Link](https://dev.to/devsnorte/turbinando-sua-produtividade-autocomplete-e-personalizacao-no-terminal-do-windows-39e9)
+## Code of Conduct
 
-## 📋 Padrões de Codificação PHP (PSRs)
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-### Recursos Essenciais
-* **PHP-FIG**: [Link](https://www.php-fig.org/psr/) - Grupo oficial de padronização do PHP
-* **O que são as PSRs do PHP**: [Link](https://www.treinaweb.com.br/blog/o-que-sao-as-psrs-do-php)
-* **PSR-1 - Padrões básicos de codificação do PHP**: [Link](https://www.treinaweb.com.br/blog/psr-1-conheca-os-padroes-basicos-de-codificacao-do-php/)
-* **PSR-4 - Recomendação de autoload do PHP**: [Link](hhttps://www.treinaweb.com.br/blog/psr-4-a-recomendacao-de-autoload-do-php?gclid=EAIaIQobChMImunDpcnBgAMVUSrUAR3zKwKuEAAYASAAEgL3XPD_BwE)
+## Security Vulnerabilities
 
-## 🔧 Ferramentas de Desenvolvimento
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-### VSCode
-* **Extensões para VSCode**: [Link](https://nodejs.org/en/download)
+## License
 
-#### Extensões Recomendadas para PHP
-
-1. **INTELEPHENSE** - IntelliSense avançado para PHP
-   - ID: `bmewburn.vscode-intelephense-client`
-   - Instalação: `ext install bmewburn.vscode-intelephense-client`
-
-2. **COMPOSER** - Suporte ao gerenciador de dependências
-   - ID: `composer-intelliphense`
-
-3. **PHP DEBUG** - Depuração com Xdebug
-   - ID: `xdebug.php-debug`
-   - Instalação: `ext install xdebug.php-debug`
-
-4. **CONSTRUTOR** - Geração automática de construtores
-   - ID: `MehediDracula.php-constructor`
-   - Instalação: `ext install MehediDracula.php-constructor`
-
-5. **GETTER & SETTER** - Geração automática de getters e setters
-   - ID: `phproberto.vscode-php-getters-setters`
-   - Instalação: `ext install phproberto.vscode-php-getters-setters`
-
-6. **LARAPHENSE** - IntelliSense específico para Laravel
-   - ID: `ryannaddy.laravel-artisan`
-   - Instalação: `ext install ryannaddy.laravel-artisan`
-
-## 🤖 Versionamento de Código### Git
-
-  * **Git vs SVN**: [Link](https://prof-gillgonzales-ifsul.notion.site/SVN-vs-GIT-2551037386bf80a4b26ec69429777850)
-  * **Tutorial de Instalação do Git no Windows**: [Link](https://dicasdeprogramacao.com.br/como-instalar-o-git-no-windows/)
-  * **Git e Github - Criação de projetos**: [Link](https://www.freecodecamp.org/portuguese/news/tutorial-de-git-e-github-controle-de-versao-para-iniciantes/)
-  * **Git e GitLab - Criação de Projeto**: [Link](https://medium.com/ekode/primeiros-passos-com-git-e-gitlab-criando-seu-primeiro-projeto-89f9001614b0)
-  * **Git por Linus Torvalds**: [Link](https://www.youtube.com/watch?v=4XpnKHJAok8)
-  * **Git para iniciantes**: [Link](https://www.youtube.com/watch?v=8JJ101D3knE)
-  * **Pro Git - Livro Gratuito**: [Link](https://git-scm.com/book/pt-br/v2)
-
-### Configuração Inicial
-
- * **Uso de chaves SSH para acesso ao GitHub**:[Link](https://docs.github.com/pt/enterprise-cloud@latest/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-
-#### Configurando Chave SSH
-```bash
-git config core.sshCommand 'ssh -o IdentitiesOnly=yes -i ~/.ssh/NOME_DA_CHAVE -F /dev/null'
-```
-
-#### Instalação e Configuração
-> **Nota para Windows:** Use a opção HTTPS "Windows Secure Channel library"
-
-<!-- ## 🗄️ Banco de Dados com Docker
-
-### MySQL e phpMyAdmin
-* **phpmyAdminMysqlDockerCompose**: [Link](https://nodejs.org/en/download) -->
-
-
----
-
-**Última atualização:** Agosto de 2025
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
